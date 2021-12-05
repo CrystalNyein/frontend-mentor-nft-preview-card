@@ -7,7 +7,7 @@ import Avatar from "../assets/images/image-avatar.png";
 
 const Card = () => {
   return (
-    <div className="Card" role="group">
+    <div className="Card">
       <div className="card-img">
         <div className="card-img-overlay active">
           <img src={View} alt="" />
