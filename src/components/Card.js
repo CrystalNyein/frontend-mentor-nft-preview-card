@@ -9,7 +9,7 @@ const Card = () => {
   return (
     <div className="Card" role="group">
       <div className="card-img">
-        <div className="card-img-overlay">
+        <div className="card-img-overlay active">
           <img src={View} alt="" />
         </div>
       </div>
@@ -20,13 +20,15 @@ const Card = () => {
       <div className="card-action">
         <div className="card-amt">
           <img src={Ethereum} alt="" />
-          0.041 ETH
+          <p>&nbsp; 0.041 ETH</p>
         </div>
         <div className="card-time">
-          <img src={Clock} alt="" />3 days left
+          <img src={Clock} alt="" />
+          <p> &nbsp;3 days left</p>
         </div>
-        <hr></hr>
       </div>
+
+      <hr></hr>
       <div className="card-profile">
         <img src={Avatar} alt="" />
         <p>
